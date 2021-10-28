@@ -48,6 +48,7 @@ public class splashscreen extends AppCompatActivity {
             public void onFinish() {
                 Intent login = new Intent(getApplicationContext(), LoginActivity.class);
                 startActivity(login);
+                 finishAffinity();
             }
         }.start();
     }
